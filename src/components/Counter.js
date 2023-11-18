@@ -7,9 +7,9 @@ const Counter = () => {
     return (
         <div id="incr-cnt">
             <h1>Count : {count}</h1>
-            <button onClick={() => (setCount(count + 1))}>New Todo</button>
+            <button id="incr-btn" onClick={() => (setCount(count + 1))}>New Todo</button>
             <h1>Expensive calculation</h1>
-            <h1>{count}</h1>
+            <h1 id="calc">{count}</h1>
         </div>
     )
 }
