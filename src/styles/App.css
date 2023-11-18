@@ -1,12 +1,12 @@
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+
+button,input {
     color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    width: 90vw;
+    margin-inline: 5vw;
+
 }
