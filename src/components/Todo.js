@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const ToDo = () =>{
-    const[todo,setTodo] = useState([]);
+    const[todo,setTodo] = useState(["New Todo"]);
   
     return(
        <div>
@@ -9,7 +9,7 @@ const ToDo = () =>{
            <ul>
             {
                 todo.map((ele,idx)=>(
-                    <li id={idx}>{ele}</li>
+                    <li id={`todo-${idx}`}>{ele}</li>
                 ))
             }
            </ul>
