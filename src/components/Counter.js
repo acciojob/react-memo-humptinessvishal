@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Counter = () => {
 
-    const [count, setCount] = useState(10);
+    const [count, setCount] = useState(1000000000);
 
     return (
         <div id="incr-cnt">
